@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thomas LECOCQ – Masseur-Kinésithérapeute</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: #2f3e2e;
+    }
+    header {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 2rem;
+      text-align: center;
+      backdrop-filter: blur(3px);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      border-radius: 0 0 12px 12px;
+      position: relative;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #22543d;
+    }
+    header p {
+      color: #2f855a;
+      font-weight: 500;
+    }
+    .btn-contact {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #38a169;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .btn-contact:hover {
+      background-color: #2f855a;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(2px);
+    }
+    .cols {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    .col {
+      flex: 1 1 300px;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2f855a;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "✚ ";
+      color: #2f855a;
+      font-weight: bold;
+      margin-right: 6px;
+    }
+    footer {
+      background: rgba(255, 255, 255, 0.8);
+      color: #2f3e2e;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+      backdrop-filter: blur(2px);
+    }
+    .contact {
+      background: rgba(198, 246, 213, 0.7);
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+      backdrop-filter: blur(1px);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Thomas LECOCQ – Masseur-Kinésithérapeute diplômé d’État</h1>
+    <p>Soins conventionnés et prestations complémentaires de kinésithérapie personnalisée</p>
+    <a href="#contact" class="btn-contact">📞 Me contacter</a>
+  </header>
+
+  <section class="section">
+    <div class="cols">
+      <div class="col">
+        <h2>Soins conventionnés</h2>
+        <ul>
+          <li>Prise en charge sur prescription médicale</li>
+          <li>Soins à domicile</li>
+          <li>Pathologies : orthopédiques, neurologiques, traumatologie, respiratoire, gériatrie</li>
+          <li>Remboursement par la Sécurité sociale</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h2>Soins hors convention</h2>
+        <ul>
+          <li>Sans prescription médicale</li>
+          <li>Intervention en entreprise</li>
+          <li>Récupération sportive</li>
+          <li>Massage détente & circulatoire</li>
+          <li>Prévention santé et ergonomie</li>
+          <li>Actes non remboursés – à la charge du bénéficiaire</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h2>Soins en entreprise</h2>
+        <p><strong>La Formule sur mesure</strong> par votre kiné préventeur pour vos besoins et ceux de vos collaborateurs :</p>
+        <ul>
+          <li>Prise de conscience</li>
+          <li>Informations</li>
+          <li>Pratique et gestes sécurisés, ergonomie appliquée</li>
+          <li>Soins bien-être : massage assis</li>
+          <li>La prestation est à adapter selon vos goûts et budget</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="contact" id="contact">
+      <h2>Contact</h2>
+      <p><strong>Téléphone :</strong> 07 86 62 90 95</p>
+      <p><strong>Email :</strong> contact.lecocq@gmail.com</p>
+      <p><strong>Adresse :</strong> Interventions à domicile ou entreprises</p>
+      <p><strong>Horaires :</strong> Lundi – Vendredi : 9h à 18h</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>N° Adeli : 837071026 | Ordre : 105903</p>
+    <p>Membre d’une Association de Gestion Agréée | Syndicat FFMK</p>
+  </footer>
+</body>
+</html>
